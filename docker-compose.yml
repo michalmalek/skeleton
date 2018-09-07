@@ -33,7 +33,7 @@ services:
       working_dir: /application
       volumes:
         - ${PROJECT_PATH}/application:/application
-        - ${PROJECT_PATH}/data/mysql:/var/lib/mysql
+        - ${PROJECT_PATH}/docker/data/mysql:/var/lib/mysql
       ports:
         - "1027:3306"
       env_file:

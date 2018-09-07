@@ -23,9 +23,9 @@ Please read comments in **docker-compose.yml** and **.env**
 ```
 application/        php application code
   public/           data exposed to public
-data/               docker containers volumes
-  mysql/            mysql volume
 docker/             docker data
+  data/             docker containers volumes
+    mysql/          mysql volume
 ```
 
 ## Project background
